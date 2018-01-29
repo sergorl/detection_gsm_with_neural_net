@@ -2,7 +2,7 @@ from utility import util_fun as f
 from utility import neuron as n
 
 
-# ---------------------------------- Открытие размеченной выборка и графический вывод  ------------------------------- #
+# ---------------------------------- Открытие размеченной выборки и графический вывод  ------------------------------- #
 data = f.open_pickle("./train_sets/data_label_900MHz.pickle")
 f.graph_out(data["data"], data["label"], step=1, thresh=0.6)
 
